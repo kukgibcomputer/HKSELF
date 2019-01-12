@@ -28,10 +28,10 @@ pip3 install antolib
 
 pip3 install urllib
 
-git clone https://github.com/Smoke101/HKSELFBOT
+git clone https://github.com/kukgibcomputer/HKSELF
 
-cd HKSELFBOT
+ls
 
-unzip HKSELFBOT.zip
+cd HKSELF
 
 python3 HK.py
