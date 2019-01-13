@@ -1,37 +1,66 @@
+pkg update
+pkg upgrade
 pkg install git
-
-pkg install akad
-
+pkg install python
 pkg install python3
-
-pip3 install rsa
-
-pip3 install requests
-
+python -m pip install --upgrade pip3
+pip3 install linepy --upgrade
+pip3 install akad
 pip3 install bs4
-
-pip3 install thrift
-
-pip3 install pytz
-
-pip3 install humanfriendly
-
+pip3 install gTTS
+pip3 install requests
+pip3 install rsa
+pip3 install thrift==0.11.0
 pip3 install gtts
-
 pip3 install googletrans
-
+pip3 install urllib.parse
+pip3 install io
+pip3 install thrift
+pip3 install humanfriendly
+pip3 install setuptools
+pip3 install pytz
 pip3 install wikipedia
-
+pip3 install html5lib
+pip3 install goslate
 pip3 install youtube_dl
-
+pip3 install pafy
+pip3 install data
+pip3 install thrift.Thrift
+pip3 install TFrozenDict
 pip3 install antolib
-
+pip3 install sysconfig
+pip3 install distutils
+pip3 install moiex
+pip3 install tweepy
+pip3 install tb
+pip3 install ffmpy
+pip3 install wikiapi
+pip3 install timeago
+pip3 install GACSender
+pip3 install Stream
+pip3 install StreamListener
+pip3 install syntax
+pip3 install pytz
+pip3 install datetime
+pip3 install pafy
+pip3 install time
+pip3 install timeit
+pip3 install random
+pip3 install sys
+pip3 install ast
+pip3 install re
+pip3 install os
+pip3 install json
+pip3 install subprocess
+pip3 install threading
+pip3 install string
+pip3 install codecs
+pip3 install requests
+pip3 install tweepy
+pip3 install ctypes
 pip3 install urllib
-
+pip3 install wikipedia
 git clone https://github.com/kukgibcomputer/HKSELF
-
 ls
-
 cd HKSELF
-
 python3 HK.py
