@@ -50,11 +50,11 @@ targets = []
 msg_dict = {}
 
 settings = {
-    "autoAdd": False,
-    "autoJoin": False,
-    'autoCancel':{"on":True,"members":10},	
+    "autoAdd": True,
+    "autoJoin": True,
+    'autoCancel':{"on":True,"members":5},	
     "autoLeave": True,
-    "autoRead": False,
+    "autoRead": True,
     "leaveRoom": False,
     "detectMention": True,
     "checkSticker": False,
@@ -66,8 +66,8 @@ settings = {
     "lang":"JP",
     "Wc": False,
     "Lv": False,
-    "Nk": False,
-    "Api": False,
+    "Nk": True,
+    "Api": True,
     "Aip": False,
     "blacklist":{},
     "winvite": False,
@@ -86,11 +86,11 @@ settings = {
     "changeGroupPicture": [],
     "changePictureProfile":False,
     "unsendMessage": False,
-    "autoJoinTicket": False,
-    "welcome":"สวัสดีคนมาใหม่\n\nตั้งข้อความต้อนรับด้วยคับ\nVҜ ⚔คนติดบอท⚔",
-    "kick":"งิเตะทมอยยย😂\nVҜ ⚔คนติดบอท⚔",
-    "bye":"ไปซ่ะละ ลาก่อยยย\nVҜ ⚔คนติดบอท⚔",
-    "Respontag":"แทคทำไมเดะจับตีก้น!",
+    "autoJoinTicket": True,
+    "welcome":"ยินดีต้อนรับเข้ากลุ่ม😁😁\n⚔คนติดบอท⚔",
+    "kick":"งิเตะทมอยยย😂\n⚔คนติดบอท⚔",
+    "bye":"ออกจากกลุ่มแล้วเหรอ ไว้เข้ามาอีกนะ 😌😌\n⚔คนติดบอท⚔",
+    "Respontag":"เดี๊ยวมาตอบนะจ๊ะ 😁😁\n⚔คนติดบอท⚔",
     "eror":"คุณใช้คำสั่งผิด สั่งบอทอีกครั้ง!",
     "spam":{},
     "invite": {},
@@ -98,9 +98,9 @@ settings = {
     "pnharfbot": {},
     "pname": {},
     "pro_name": {},
-    "message1":"แอดมารัก หรือ แอดมารัน😊",
+    "message1":"ขอบคุณที่แอดมา เดี๊ยวมาตอบนะจ๊ะ 😁😁",
     "message":"บัญชีนี้ถูกป้องกันโดย ⚔คนติดบอท⚔ ระบบได้บล็อคคุณอัตโนมัติ!",
-    "comment":"""ŚẾL₣ВΌŦ BY:
+    "comment":"""⚔คนติดบอท⚔:
 ╔══════════════┓
 ╠      Ħ͢͢͠҉͢͢͠Ꝁ͢͢͠҉͢͢͠ S͢͢͠҉͢͢͠Ɇ͢͢͠҉͢͢͠Ł͢͢͠҉͢͢͠F͢͢͠҉͢͢͠Ƀ͢͢͠҉͢͢͠Ø͢͢͠҉͢͢͠Ŧ͢͢͠҉͢͢͠
 ╚══════════════┛""",
