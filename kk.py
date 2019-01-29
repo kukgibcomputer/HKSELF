@@ -4439,7 +4439,7 @@ def lineBot(op):
                             pass
                         else:
                             RfuCctv['sidermem'][op.param1] += "\n🔰" + Name
-                            pref=['แอบทมายออกมาควยกัน']
+                            pref=['รายชื่อนี้อ่านแล้ว']
                             sendMessageWithMention(op.param1, op.param2)
                             line.sendMessage(op.param1, str(random.choice(pref)) + '\n❋❋❋')
                             line.sendContact(op.param1, op.param2)
